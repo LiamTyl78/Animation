@@ -1,4 +1,4 @@
-//Liam Tyler
+
 public class StarPoly2Di extends Polygon2Di{
         // instance variables
         private static int[] xCoords = { 0, 2, 10, 2, 0, -2, -10, -2 };

@@ -1,4 +1,4 @@
-//Liam Tyler
+
 import java.awt.*;
 
 //Shape2Di Parameters

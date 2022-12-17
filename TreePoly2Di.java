@@ -1,4 +1,4 @@
-//Liam Tyler
+
 public class TreePoly2Di extends Polygon2Di{
     // instance variables
     private static int[] xCoords = { 21, 37, 2, 42, 8, 158, 123, 156, 120, 148, 83};

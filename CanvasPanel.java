@@ -44,23 +44,23 @@ public class CanvasPanel extends JPanel {
             shapes.add(new Circle2Di(8, 150, 140, 70)); // A yellow circle, shape 0
             shapes.add(new Rectangle2Di(5, 25, 425, 600, 200)); // Green rectangle, shape 1 
             
-            //create 30 TreePoly2Di objects
+            //create 30 TreePoly2Di objects, shape 2 - 31
             for (int i = 1; i < 30; i++) {
                 shapes.add(new TreePoly2Di(1, x.Generate(), y.Generate()));
             }
             
             // construct snowman
-            shapes.add(new Rectangle2Di(17, 275, 475, 40, 5));// Brown rectangle, shape 28 
-            shapes.add(new Rectangle2Di(17, 340, 475, 40, 5));// Brown rectangle, shape 29
-            shapes.add(new Circle2Di(16, 300, 500, 55)); // Snowman Base, shape 30
-            shapes.add(new Circle2Di(16, 305, 465, 45)); // Snowman Middle, shape 31
-            shapes.add(new Circle2Di(16, 310, 440, 35)); // Snowman Head, shape 32
-            shapes.add(new Circle2Di(3, 320, 450, 5)); // Snowman Head, shape 33
-            shapes.add(new Circle2Di(3, 330, 450, 5)); // Snowman Head, shape 34
+            shapes.add(new Rectangle2Di(17, 275, 475, 40, 5));// Brown rectangle, shape 32 
+            shapes.add(new Rectangle2Di(17, 340, 475, 40, 5));// Brown rectangle, shape 33
+            shapes.add(new Circle2Di(16, 300, 500, 55)); // Snowman Base, shape 34
+            shapes.add(new Circle2Di(16, 305, 465, 45)); // Snowman Middle, shape 35
+            shapes.add(new Circle2Di(16, 310, 440, 35)); // Snowman Head, shape 36
+            shapes.add(new Circle2Di(3, 320, 450, 5)); // Snowman Head, shape 37
+            shapes.add(new Circle2Di(3, 330, 450, 5)); // Snowman Head, shape 38
             
             //Create 20 snowflakes
             for (int i = 39; i < 128; i++) {
-                shapes.add(new StarPoly2Di(5, x.Generate(), 20));// star, shape 3
+                shapes.add(new StarPoly2Di(5, x.Generate(), 20));// stars, shape 39 - 89
                 shapes.get(i).SetZRotate(Xspeed.Generate());
             }
             for (int i = 39; i < 128; i++) {
@@ -145,7 +145,7 @@ public class CanvasPanel extends JPanel {
         time = false;
         CanvasFrame f = new CanvasFrame();
     }
-
+    
     public static void P2() {
         time = true;
         CanvasFrame f = new CanvasFrame();

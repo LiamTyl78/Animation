@@ -1,12 +1,4 @@
 
-/**
- * Project 5 Canvas Panel class
- * 
- * The constructor of this class starts the event/render loop
- *
- * Liam Tyler (IOOP Fall 2022)
- * @version (v4.0, 12/1/22)
- */
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

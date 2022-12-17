@@ -1,4 +1,4 @@
-//Liam Tyler
+
 import java.awt.Graphics;
 
 public class Rectangle2Di extends Shape2Di{
